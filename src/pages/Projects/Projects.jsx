@@ -9,7 +9,7 @@ const projects = [
     description:
       "An intelligent web application that uses the Google Gemini API to automatically grade handwritten Hebrew math homework. Users can upload an image or a PDF of their work and receive a detailed, problem-by-problem analysis with error highlighting and constructive feedback.",
     src: "rock.jpg",
-    link: "https://private-user-images.githubusercontent.com/101261770/477093873-d1ace9cc-e704-4892-841c-280aa67ad02e.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUyNzYwOTcsIm5iZiI6MTc1NTI3NTc5NywicGF0aCI6Ii8xMDEyNjE3NzAvNDc3MDkzODczLWQxYWNlOWNjLWU3MDQtNDg5Mi04NDFjLTI4MGFhNjdhZDAyZS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNVQxNjM2MzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZjZlMjdkMjhkYTEyNDM0NDAwZDFkNGFlNjEzYjIzNTU2M2Q4NDY4YjI4NTM5MTQ0ZGQ1MDBiY2I1MmUyZjc1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vV3qVOd3mYtxYgR5xiWvMZd3dfTL6FM9yJ9VaFoXp2A",
+    link: "https://uploads.onecompiler.io/42uvjq4qp/43tsuzzzw/477093873-d1ace9cc-e704-4892-841c-280aa67ad02e.jpg",
     color: "#5196fd",
     githubLink: "https://github.com/patowari/hebrew-math-grader",
     liveLink: "#",
@@ -29,7 +29,7 @@ const projects = [
     description:
       "Built a web scraper for top Bangladeshi news portals. Used BanglaBERT and mT5 for AI-generated short news summaries. Implemented duplicate detection with Sentence Transformers and cosine similarity. Automated image creation with Python (Pillow, OpenCV) on dynamic templates. Integrated Facebook & Instagram APIs for automated posting with captions and scheduling.",
     src: "tree.jpg",
-    link: "https://private-user-images.githubusercontent.com/101261770/478505372-dd8fe865-f146-45b5-8083-36e309ee2ebf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUyNzY5MDksIm5iZiI6MTc1NTI3NjYwOSwicGF0aCI6Ii8xMDEyNjE3NzAvNDc4NTA1MzcyLWRkOGZlODY1LWYxNDYtNDViNS04MDgzLTM2ZTMwOWVlMmViZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNVQxNjUwMDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZDcwY2NmNTEyMGE1OGY4MmJjNGNlNTFmNTNlZTEwNDJlYzExYzJhYzZhNmJjOTQ5NWFhN2VkZGQ2ZjM1YTcyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rMZ5ubbq_UaX_tacaYlrvxwtPBqYBxpCeizOZZVDuV8",
+    link: "https://uploads.onecompiler.io/42uvjq4qp/43tsuzzzw/Screenshot%202025-08-15%20124915.png",
     color: "#8f89ff",
     githubLink: "https://github.com/patowari/Banglashorts-backend",
     liveLink: "https://banglashorts.com",
@@ -39,7 +39,7 @@ const projects = [
     description:
       "A Flask web application that automatically removes backgrounds from uploaded images and replaces them with your custom background collection. ",
     src: "water.jpg",
-    link: "https://private-user-images.githubusercontent.com/101261770/463458014-5176c96e-bb4e-4afb-aa63-eeccc1cc137b.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUyNzcxNjIsIm5iZiI6MTc1NTI3Njg2MiwicGF0aCI6Ii8xMDEyNjE3NzAvNDYzNDU4MDE0LTUxNzZjOTZlLWJiNGUtNGFmYi1hYTYzLWVlY2NjMWNjMTM3Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNVQxNjU0MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZDBiYTVlYmExMDBhZDdkZWEwYTcwYTA2NGQyY2U3ZWJlNjRhMTkxMTdmYjgxNmRlMmQ2ZmFhMmI0Mzg2YzA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PrBHbMSGJ9kCjBtwbqgmSf7pCyJH-1zxrmT7NQhBQVs",
+    link: "https://uploads.onecompiler.io/42uvjq4qp/43tsuzzzw/463458014-5176c96e-bb4e-4afb-aa63-eeccc1cc137b.png",
     color: "#fff",
     githubLink: "https://github.com/patowari/Background-Replacement-Tool",
     liveLink: "https://aibooth.xri.com.bd/",
