@@ -5,44 +5,54 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "A comprehensive system for automatically grading Hebrew handwritten mathematics homework",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "An intelligent web application that uses the Google Gemini API to automatically grade handwritten Hebrew math homework. Users can upload an image or a PDF of their work and receive a detailed, problem-by-problem analysis with error highlighting and constructive feedback.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://private-user-images.githubusercontent.com/101261770/477093873-d1ace9cc-e704-4892-841c-280aa67ad02e.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUyNzYwOTcsIm5iZiI6MTc1NTI3NTc5NywicGF0aCI6Ii8xMDEyNjE3NzAvNDc3MDkzODczLWQxYWNlOWNjLWU3MDQtNDg5Mi04NDFjLTI4MGFhNjdhZDAyZS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNVQxNjM2MzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZjZlMjdkMjhkYTEyNDM0NDAwZDFkNGFlNjEzYjIzNTU2M2Q4NDY4YjI4NTM5MTQ0ZGQ1MDBiY2I1MmUyZjc1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vV3qVOd3mYtxYgR5xiWvMZd3dfTL6FM9yJ9VaFoXp2A",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/patowari/hebrew-math-grader",
+    liveLink: "#",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Designed and developed BanglaGPT, a generative AI-powered Bangla chatbot built under USAID's Breakthrough ACTION project to support call center agents in responding to health-related queries.",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
-  },
-  {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Focused on improving the efficiency of health communication through AI-driven support tools tailored for the needs of the DGFP (Directorate General of Family Planning) call center. ",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://uploads.onecompiler.io/42uvjq4qp/43tsuzzzw/Screenshot%202025-08-15%20130043.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/patowari/BanglaGPT",
+    liveLink: "https://breakthrough-action.netlify.app/",
   },
   {
-    title: "CodeKori 🔥",
+    title: "AI micro-news platform for Dhaka Post, creating 59-word summaries.",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Built a web scraper for top Bangladeshi news portals. Used BanglaBERT and mT5 for AI-generated short news summaries. Implemented duplicate detection with Sentence Transformers and cosine similarity. Automated image creation with Python (Pillow, OpenCV) on dynamic templates. Integrated Facebook & Instagram APIs for automated posting with captions and scheduling.",
+    src: "tree.jpg",
+    link: "https://private-user-images.githubusercontent.com/101261770/478505372-dd8fe865-f146-45b5-8083-36e309ee2ebf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUyNzY5MDksIm5iZiI6MTc1NTI3NjYwOSwicGF0aCI6Ii8xMDEyNjE3NzAvNDc4NTA1MzcyLWRkOGZlODY1LWYxNDYtNDViNS04MDgzLTM2ZTMwOWVlMmViZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNVQxNjUwMDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZDcwY2NmNTEyMGE1OGY4MmJjNGNlNTFmNTNlZTEwNDJlYzExYzJhYzZhNmJjOTQ5NWFhN2VkZGQ2ZjM1YTcyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rMZ5ubbq_UaX_tacaYlrvxwtPBqYBxpCeizOZZVDuV8",
+    color: "#8f89ff",
+    githubLink: "https://github.com/patowari/Banglashorts-backend",
+    liveLink: "https://banglashorts.com",
+  },
+  {
+    title: "AI-powered Flask tool for Nasle that removes and replaces image backgrounds with custom designs.",
+    description:
+      "A Flask web application that automatically removes backgrounds from uploaded images and replaces them with your custom background collection. ",
+    src: "water.jpg",
+    link: "https://private-user-images.githubusercontent.com/101261770/463458014-5176c96e-bb4e-4afb-aa63-eeccc1cc137b.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUyNzcxNjIsIm5iZiI6MTc1NTI3Njg2MiwicGF0aCI6Ii8xMDEyNjE3NzAvNDYzNDU4MDE0LTUxNzZjOTZlLWJiNGUtNGFmYi1hYTYzLWVlY2NjMWNjMTM3Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNVQxNjU0MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZDBiYTVlYmExMDBhZDdkZWEwYTcwYTA2NGQyY2U3ZWJlNjRhMTkxMTdmYjgxNmRlMmQ2ZmFhMmI0Mzg2YzA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PrBHbMSGJ9kCjBtwbqgmSf7pCyJH-1zxrmT7NQhBQVs",
+    color: "#fff",
+    githubLink: "https://github.com/patowari/Background-Replacement-Tool",
+    liveLink: "https://aibooth.xri.com.bd/",
+  },
+  {
+    title: "Production-ready chatbot integrates WhatsApp Cloud API for seamless communication, Groq ( deepseek-r1-distill-llama-70b ) for conversational intelligence, and Redis for context management.",
+    description:
+      "A smart, scalable, and engaging WhatsApp chatbot that provides context-aware responses and can handle real-world conversations.",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://uploads.onecompiler.io/42uvjq4qp/43tsuzzzw/Untssitled.jpg",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/patowari/whatsapp-chatbot-groq",
+    liveLink: "#",
   },
 ];
 
